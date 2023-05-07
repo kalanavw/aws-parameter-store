@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: calculation
+  profiles:
+    active: dev

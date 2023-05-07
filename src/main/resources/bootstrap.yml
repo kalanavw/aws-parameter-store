@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: calculation
+
+aws:
+  paramstore:
+    prefix: /conf
+    enabled: true
+    default-context: application
+    profile-separator: _
+    name: calculation
+    region: us-east-2
+    fail-fast: false
